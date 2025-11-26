@@ -86,12 +86,14 @@ export const ProfileHeroSection = (): JSX.Element => {
             </div>
           </div>
 
-          <div className="w-full aspect-square max-w-[379px] lg:ml-auto">
-            <img
-              src="/figmaAssets/imagewithfallback.png"
-              alt="Ariuna Munkueva profile"
-              className="w-full h-full object-cover rounded-lg"
-            />
+          <div className="w-full aspect-square max-w-[418px] lg:ml-auto">
+            <div className="relative w-full h-full p-[17px] rounded-xl">
+              <img
+                src="/figmaAssets/profile-picture.png"
+                alt="Ariuna Munkueva profile"
+                className="w-full h-full object-cover rounded-lg"
+              />
+            </div>
           </div>
         </div>
       </div>
