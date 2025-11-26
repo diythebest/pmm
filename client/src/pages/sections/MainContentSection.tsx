@@ -42,8 +42,8 @@ const experiences = [
     periodIcon: "/figmaAssets/icon-8.svg",
     description:
       "Air quality monitoring IoT solutions for environmental insights.",
-    image: "/figmaAssets/image--atmo-product-.png",
-    imageClass: "w-[241.55px] h-[362.99px]",
+    image: "/atmo-product.jpeg",
+    imageClass: "w-full h-auto",
     role: "Marketing Specialist",
     responsibilities: [
       "Developed and executed the company's external communications and content strategy, creating targeted content plans, case studies, landing pages, and blog posts in collaboration with product team",
@@ -68,8 +68,8 @@ const experiences = [
     periodIcon: "/figmaAssets/icon-10.svg",
     description:
       "Embedded electronics and IoT devices for makers and developers.",
-    image: "/figmaAssets/image--notanotherone-product-.png",
-    imageClass: "w-[501.79px] h-[282.48px]",
+    image: "/notanotherone-product.jpg",
+    imageClass: "w-full h-auto",
     role: "Marketing Communications Specialist",
     responsibilities: [
       "Wrote and coordinated publishing of content in popular business and technology media outlets, securing thirteen published articles",
@@ -93,8 +93,8 @@ const experiences = [
     periodIcon: "/figmaAssets/icon-8.svg",
     description:
       "Computer accessories and peripherals for B2C and B2B markets.",
-    image: "/figmaAssets/image--addlink-product-.png",
-    imageClass: "w-[483.99px] h-[362.99px]",
+    image: "/addlink-product.png",
+    imageClass: "w-full h-auto",
     role: "Sales Representative",
     responsibilities: [
       "Responsible for business development in Eastern Europe and Central Asia for newly launched products",
