@@ -346,9 +346,10 @@ export const MainContentSection = (): JSX.Element => {
                     <Card className="bg-white rounded-[16.4px] shadow-[0px_2px_8px_#0f172a14] border-0">
                       <CardContent className="p-5">
                         <div className="rounded-2xl overflow-hidden flex items-center justify-center">
-                          <div
-                            className={`${exp.imageClass} bg-cover bg-center bg-no-repeat`}
-                            style={{ backgroundImage: `url(${exp.image})` }}
+                          <img
+                            src={exp.image}
+                            alt={`${exp.company} product`}
+                            className={`${exp.imageClass} object-cover rounded-lg`}
                           />
                         </div>
                       </CardContent>
