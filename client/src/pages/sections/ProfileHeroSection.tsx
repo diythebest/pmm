@@ -87,12 +87,19 @@ export const ProfileHeroSection = (): JSX.Element => {
           </div>
 
           <div className="w-full aspect-square max-w-[418px] lg:ml-auto">
-            <div className="relative w-full h-full p-[17px] rounded-xl">
-              <img
-                src="/figmaAssets/profile-picture.png"
-                alt="Ariuna Munkueva profile"
-                className="w-full h-full object-cover rounded-lg"
-              />
+            <div className="relative w-full h-full">
+              {/* Decorative corner frames */}
+              <div className="absolute -top-4 -left-4 w-16 h-16 border-2 border-[#cbd5e1] rounded-lg"></div>
+              <div className="absolute -bottom-4 -right-4 w-16 h-16 border-2 border-[#cbd5e1] rounded-lg"></div>
+              
+              {/* Main image container with white background and shadow */}
+              <div className="relative w-full h-full bg-white p-4 rounded-3xl shadow-[0px_8px_24px_rgba(15,23,42,0.08)]">
+                <img
+                  src="/figmaAssets/profile-picture.png"
+                  alt="Ariuna Munkueva profile"
+                  className="w-full h-full object-cover rounded-2xl"
+                />
+              </div>
             </div>
           </div>
         </div>
