@@ -87,24 +87,12 @@ export const ProfileHeroSection = (): JSX.Element => {
           </div>
 
           <div className="w-full aspect-square max-w-[418px] lg:ml-auto">
-            <div className="relative w-full h-full">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#1d63dc]/20 via-[#2f7ae5]/10 to-[#0f766e]/20 rounded-3xl blur-2xl"></div>
-              
-              <div className="relative w-full h-full p-2">
-                <div className="relative w-full h-full rounded-3xl overflow-hidden bg-gradient-to-br from-[#1d63dc]/10 to-[#2f7ae5]/10 p-[3px]">
-                  <div className="relative w-full h-full rounded-3xl overflow-hidden bg-white">
-                    <img
-                      src="/figmaAssets/profile-picture.png"
-                      alt="Ariuna Munkueva profile"
-                      className="w-full h-full object-cover"
-                      data-testid="img-profile"
-                    />
-                  </div>
-                </div>
-              </div>
-              
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-br from-[#1d63dc]/30 to-[#2f7ae5]/20 rounded-full blur-xl"></div>
-              <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-gradient-to-tr from-[#0f766e]/20 to-[#2f7ae5]/10 rounded-full blur-xl"></div>
+            <div className="relative w-full h-full p-[17px] rounded-xl">
+              <img
+                src="/figmaAssets/profile-picture.png"
+                alt="Ariuna Munkueva profile"
+                className="w-full h-full object-cover rounded-lg"
+              />
             </div>
           </div>
         </div>
