@@ -343,17 +343,15 @@ export const MainContentSection = (): JSX.Element => {
                       </p>
                     </div>
 
-                    <Card className="bg-white rounded-[16.4px] shadow-[0px_2px_8px_#0f172a14] border-0">
-                      <CardContent className="p-5">
-                        <div className="rounded-2xl overflow-hidden flex items-center justify-center">
-                          <img
-                            src={exp.image}
-                            alt={`${exp.company} product`}
-                            className={`${exp.imageClass} object-cover rounded-lg`}
-                          />
-                        </div>
-                      </CardContent>
-                    </Card>
+                    <div className="w-full aspect-square max-w-[418px]">
+                      <div className="relative w-full h-full p-[17px] rounded-xl">
+                        <img
+                          src={exp.image}
+                          alt={`${exp.company} product`}
+                          className="w-full h-full object-cover rounded-lg"
+                        />
+                      </div>
+                    </div>
                   </div>
 
                   <div className="flex flex-col gap-6 pt-8">
