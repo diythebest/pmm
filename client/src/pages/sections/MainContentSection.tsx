@@ -344,11 +344,11 @@ export const MainContentSection = (): JSX.Element => {
                     </div>
 
                     <div className="w-full aspect-square max-w-[418px]">
-                      <div className="relative w-full h-full bg-white p-4 rounded-3xl shadow-[0px_8px_24px_rgba(15,23,42,0.08)]">
+                      <div className="relative w-full h-full bg-white p-4 rounded-3xl shadow-[0px_8px_24px_rgba(15,23,42,0.08)] flex items-center justify-center">
                         <img
                           src={exp.image}
                           alt={`${exp.company} product`}
-                          className="w-full h-full object-contain rounded-2xl"
+                          className="max-w-full max-h-full object-contain rounded-2xl"
                         />
                       </div>
                     </div>
