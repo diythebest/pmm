@@ -683,7 +683,12 @@ Inter',Helvetica] max-w-[707px] mx-auto"
           </p>
 
           <div className="mt-4 flex items-center justify-center gap-6">
-            <div className="flex items-center gap-2">
+            <a
+              href="https://www.linkedin.com/in/ariuna-munkueva/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+            >
               <img
                 src="/figmaAssets/icon-1.svg"
                 alt="LinkedIn"
@@ -692,7 +697,7 @@ Inter',Helvetica] max-w-[707px] mx-auto"
               <span className="text-[#45556c] text-base text-center leading-6 [font-family:'Inter',Helvetica]">
                 LinkedIn
               </span>
-            </div>
+            </a>
 
             <div className="w-1 h-1 bg-[#45556c] rounded-full" />
 
