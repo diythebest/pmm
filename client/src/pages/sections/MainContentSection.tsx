@@ -643,25 +643,34 @@ export const MainContentSection = (): JSX.Element => {
           </p>
 
           <div className="mt-8 flex items-center justify-center gap-4">
-            <Button className="bg-[#1d63dc] hover:bg-[#1d63dc]/90 text-white rounded-2xl shadow-[0px_2px_4px_-2px_#0000001a,0px_4px_6px_-1px_#0000001a] px-8 h-auto py-4">
-              <img
-                src="/figmaAssets/icon-2.svg"
-                alt="Email"
-                className="w-5 h-5 mr-2"
-              />
-              Email Me
+            <Button className="bg-[#1d63dc] hover:bg-[#1d63dc]/90 text-white rounded-2xl shadow-[0px_2px_4px_-2px_#0000001a,0px_4px_6px_-1px_#0000001a] px-8 h-auto py-4" asChild>
+              <a href="mailto:aryuna.munkueva@gmail.com">
+                <img
+                  src="/figmaAssets/icon-2.svg"
+                  alt="Email"
+                  className="w-5 h-5 mr-2"
+                />
+                Email Me
+              </a>
             </Button>
 
             <Button
               variant="outline"
               className="bg-white hover:bg-white text-[#1d63dc] border-[1.67px] border-[#1d63dc] rounded-2xl px-8 h-auto py-4"
+              asChild
             >
-              <img
-                src="/figmaAssets/icon-1.svg"
-                alt="LinkedIn"
-                className="w-5 h-5 mr-2"
-              />
-              Connect on LinkedIn
+              <a
+                href="https://www.linkedin.com/in/ariuna-munkueva/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/figmaAssets/icon-1.svg"
+                  alt="LinkedIn"
+                  className="w-5 h-5 mr-2"
+                />
+                Connect on LinkedIn
+              </a>
             </Button>
           </div>
 

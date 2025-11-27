@@ -32,29 +32,38 @@ export const ProfileHeroSection = (): JSX.Element => {
             </p>
 
             <div className="flex gap-3 flex-wrap">
-              <Button className="bg-[#1d63dc] hover:bg-[#1d63dc]/90 rounded-2xl h-auto px-6 py-4 gap-2">
-                <img
-                  className="w-4 h-4"
-                  alt="LinkedIn icon"
-                  src="/figmaAssets/icon-6.svg"
-                />
-                <span className="[font-family:'Inter',Helvetica] font-normal text-white text-base tracking-[0] leading-6">
-                  Connect on LinkedIn
-                </span>
+              <Button className="bg-[#1d63dc] hover:bg-[#1d63dc]/90 rounded-2xl h-auto px-6 py-4 gap-2" asChild>
+                <a
+                  href="https://www.linkedin.com/in/ariuna-munkueva/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="w-4 h-4"
+                    alt="LinkedIn icon"
+                    src="/figmaAssets/icon-6.svg"
+                  />
+                  <span className="[font-family:'Inter',Helvetica] font-normal text-white text-base tracking-[0] leading-6">
+                    Connect on LinkedIn
+                  </span>
+                </a>
               </Button>
 
               <Button
                 variant="outline"
                 className="bg-white border-[1.67px] border-[#1d63dc] hover:bg-[#1d63dc]/5 rounded-2xl h-auto px-6 py-4 gap-2"
+                asChild
               >
-                <img
-                  className="w-4 h-4"
-                  alt="Email icon"
-                  src="/figmaAssets/icon-15.svg"
-                />
-                <span className="[font-family:'Inter',Helvetica] font-normal text-[#1d63dc] text-base tracking-[0] leading-6">
-                  Email Me
-                </span>
+                <a href="mailto:aryuna.munkueva@gmail.com">
+                  <img
+                    className="w-4 h-4"
+                    alt="Email icon"
+                    src="/figmaAssets/icon-15.svg"
+                  />
+                  <span className="[font-family:'Inter',Helvetica] font-normal text-[#1d63dc] text-base tracking-[0] leading-6">
+                    Email Me
+                  </span>
+                </a>
               </Button>
             </div>
 

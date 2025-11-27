@@ -36,15 +36,22 @@ export const PullCodeFrom = (): JSX.Element => {
                 ))}
               </div>
 
-              <Button className="w-[184.15px] h-9 p-0 bg-[#1d63dc] hover:bg-[#1d63dc]/90 flex items-center justify-center gap-[7.99px] rounded-2xl">
-                <img
-                  className="relative w-4 h-4"
-                  alt="Icon"
-                  src="/figmaAssets/icon-19.svg"
-                />
-                <span className="relative w-[136.16px] h-5 text-sm leading-5 [font-family:'Inter',Helvetica] font-normal text-white tracking-[0] whitespace-nowrap">
-                  Connect on LinkedIn
-                </span>
+              <Button className="w-[184.15px] h-9 p-0 bg-[#1d63dc] hover:bg-[#1d63dc]/90 flex items-center justify-center gap-[7.99px] rounded-2xl" asChild>
+                <a
+                  href="https://www.linkedin.com/in/ariuna-munkueva/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-[7.99px] w-full h-full"
+                >
+                  <img
+                    className="relative w-4 h-4"
+                    alt="Icon"
+                    src="/figmaAssets/icon-19.svg"
+                  />
+                  <span className="relative w-[136.16px] h-5 text-sm leading-5 [font-family:'Inter',Helvetica] font-normal text-white tracking-[0] whitespace-nowrap">
+                    Connect on LinkedIn
+                  </span>
+                </a>
               </Button>
             </div>
           </nav>
